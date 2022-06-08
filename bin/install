@@ -1,5 +1,5 @@
 #!/bin/sh
 
 tar -xzf ${ASDF_DOWNLOAD_PATH}/sem.tar.gz -C ${ASDF_DOWNLOAD_PATH}
-chmod +x ${ASDF_DOWNLOAD_PATH}/sem
+mkdir ${ASDF_INSTALL_PATH}/bin
 mv ${ASDF_DOWNLOAD_PATH}/sem ${ASDF_INSTALL_PATH}/bin/sem
