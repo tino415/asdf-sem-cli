@@ -1,13 +1,9 @@
 # SemaphoreCI CLI ASDF plugin
 
-# Jurnal
+[ASDF](https://asdf-vm.com/) plugin to install [SemaphoreCI](https://semaphoreci.com/) [commandline tool](https://docs.semaphoreci.com/reference/sem-command-line-tool/). To add plugin, paste/write to your shell next command:
 
-- tried to init, problem is 
 ```
-Updating sem to master
-From https://github.com/tino415/asdf-sem-cli
- * [new branch]      master     -> master
-Switched to branch 'master'
-/opt/homebrew/Cellar/asdf/0.10.1/libexec/lib/functions/installs.bash: line 201: /var/folders/25/j028w1v15f9cd3rm4fw37p280000gq/T/asdf.XXXX.Z0wEK0t4/plugins/sem/bin/download: Permission denied
-FAILED: install exited with an error
+asdf plugin add sem https://github.com/tino415/asdf-sem-cli
 ```
+
+!This plugin is not tested with different versions per project so global usage is recommended.
