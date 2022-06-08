@@ -1,0 +1,5 @@
+#!/bin/sh
+
+tar -xzf ${ASDF_DOWNLOAD_PATH}/sem.tar.gz -C ${ASDF_DOWNLOAD_PATH}
+chmod +x ${ASDF_DONWLOAD_PATH}/sem
+sudo mv ${ASDF_DOWNLOAD_PATH}/sem ${ASDF_INSTALL_PATH}/bin/sem

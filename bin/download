@@ -1,0 +1,10 @@
+#!/bin/sh
+
+OS=$(uname -s)
+ARCH=$(uname -m)
+
+if curl --fail -L "https://github.com/semaphoreci/cli/releases/download/v${ASDF_INSTALL_VERSION}/sem_${OS}_${ARCH}.tar.gz" -o /tmp/sem.tar.gz
+then
+  mv /tmp/sem.tar.gz ${ASDF_DOWNLOAD_PATH}/sem.tar.gz
+fi
+
